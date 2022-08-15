@@ -1,0 +1,17 @@
+#include<stdio.h>
+second()
+{
+	printf("echo\n");
+}
+first()
+{
+	printf("charlee\n");
+	second();
+	printf("delta\n");
+}
+main()
+{
+	printf("alpha\n");
+	first();
+	printf("beta\n");
+}
